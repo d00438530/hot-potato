@@ -5,19 +5,19 @@ input.onButtonPressed(Button.A, function () {
     while (potato > 0) {
         basic.showLeds(`
             . . . . .
-            . . . . .
             . . # . .
-            . . . . .
+            . # . # .
+            . . # . .
             . . . . .
             `)
         basic.pause(500)
         potato += -1
         basic.showLeds(`
-            . . . . .
             . . # . .
             . # . # .
+            # . # . #
+            . # . # .
             . . # . .
-            . . . . .
             `)
         basic.pause(500)
     }
